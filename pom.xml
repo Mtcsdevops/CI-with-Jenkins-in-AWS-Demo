@@ -49,5 +49,12 @@
                 </configuration>
             </plugin>
         </plugins>
+        <distributionManagement>
+            <repository>
+                <id>MukRep</id>
+                <name>MukRep</name>
+                <url>http://34.93.255.53:8081/nexus/content/repositories/MukRep</url>
+            </repository>
+        </distributionManagement>
     </build>
 </project>
